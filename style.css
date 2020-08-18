@@ -1,11 +1,6 @@
-.jumbotron{
-    height: 720px;
-}
-
 .orientation{
-    /* background: url("filme.jpeg"); */
-    /* background-size: cover; */
-    float: left;
+    width: 4%;
+    position: fixed;
 }
 
 .textStyle {
@@ -13,17 +8,21 @@
 }
 
 .fotoStyle{
-    width: 50px;
-    height: 50px;
+    width: 35px;
     object-fit: scale-down;
+    padding: 0;
 }
 
-#listaLivros{
+.displayLista{
+    display: none;
+}
+
+.fotoStyle:hover + .displayLista{
+    display: block;
     width: 25%;
 }
 
 img{
-    width: 1000px;
-    height: 1000px;
-    object-fit: scale-down;
+    width: 96%;
+    margin-left: 4%
 }
