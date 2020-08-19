@@ -1,6 +1,7 @@
 .orientation{
     width: 4%;
     position: fixed;
+    background-color: rgba(0,0,0,0.3);
 }
 
 .textStyle {
@@ -9,8 +10,7 @@
 
 .fotoStyle{
     width: 35px;
-    object-fit: scale-down;
-    padding: 0;
+    margin: 0;
 }
 
 .displayLista{
@@ -19,10 +19,24 @@
 
 .fotoStyle:hover + .displayLista{
     display: block;
-    width: 25%;
+    background-color: rgba(0,0,0,0.6);
 }
 
+.fotoStyleLista{
+height: 100vh;
+}
+
+.nav{
+    padding: 0 auto;
+}
+
+.section{
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+    float: left;
+    text-align: center;}
+
 img{
-    width: 96%;
-    margin-left: 4%
+    width: 100%;
 }
