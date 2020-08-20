@@ -6,6 +6,9 @@
 
 .textStyle {
     color: white !important;
+    position: absolute;
+    top: 600px;
+    left: 100px;
 }
 
 .fotoStyle{
@@ -23,7 +26,10 @@
 }
 
 .fotoStyleLista{
-height: 100vh;
+    max-width:100vh;
+    max-height:100vh;
+    width: auto;
+    height: auto;
 }
 
 .nav{
@@ -36,6 +42,10 @@ height: 100vh;
     position: relative;
     float: left;
     text-align: center;}
+
+    .descricao{
+        max-width: 10000px;
+    }
 
 img{
     width: 100%;
