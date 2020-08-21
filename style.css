@@ -1,14 +1,14 @@
+body{
+    background-image: url(Fotos/filme2.jpeg);
+    background-size: 100% 8%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
 .orientation{
     width: 4%;
     position: fixed;
     background-color: rgba(0,0,0,0.3);
-}
-
-.textStyle {
-    color: white !important;
-    position: absolute;
-    top: 600px;
-    left: 100px;
 }
 
 .fotoStyle{
@@ -32,10 +32,6 @@
     height: auto;
 }
 
-.nav{
-    padding: 0 auto;
-}
-
 .section{
     box-sizing: border-box;
     height: 100%;
@@ -45,8 +41,10 @@
 
     .descricao{
         max-width: 10000px;
-    }
+    }   /* classe nos resumos dos livros, terminar de editar */
 
-img{
-    width: 100%;
+#content{
+    padding-top: 50%;
+    padding-bottom: 15%;
+    color: white;
 }
