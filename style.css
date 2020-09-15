@@ -1,8 +1,8 @@
-html,body{
+html,body {
     scroll-behavior: smooth;
 }
 
-.imagemFundo{
+.imagemFundo {
     background-image: url(Fotos/filme2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,51 +11,49 @@ html,body{
     width: 100%;
 }
 
-ul{
+ul {
     list-style-type: none;
-}
-
-.orientation{
-    /* width: 4%; */
-    z-index: 10;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    z-index: 10;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
-    max-height: 100vh;
+    align-items: stretch;
     justify-content: space-around;
+    max-height: 100vh;
     position: fixed;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
-.fotoStyle{
-    width: 35px;
+.fotoStyle {
+    width: 40px;
+}
+
+button{
     margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
-.displayLista{
+.displayLista {
     display: none;
     padding: 0 10px;
+    color: white;
 }
 
-li:hover .displayLista{
+ul:hover .displayLista {
     display: initial;
 }
 
-/* .fotoStyle:hover + .displayLista{
-    display: block;
-    background-color: rgba(0,0,0,0.6);
-} */
-
-.fotoStyleLista{
-    max-width:100vh;
-    max-height:100vh;
+.fotoStyleLista {
+    max-width: 100vh;
+    max-height: 100vh;
     width: auto;
     height: auto;
 }
 
-.section{
+.section {
     box-sizing: border-box;
     height: 100%;
     position: relative;
@@ -63,11 +61,13 @@ li:hover .displayLista{
     text-align: center;
 }
 
-.descricao{
+.descricao {
     max-width: 10000px;
-}   /* classe nos resumos dos livros, terminar de editar */
+}
 
-#content{
+/* classe nos resumos dos livros, terminar de editar */
+
+#content {
     padding-top: 50%;
     padding-bottom: 15%;
     color: white;
