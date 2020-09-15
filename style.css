@@ -42,8 +42,13 @@ button{
     color: white;
 }
 
+button:hover{
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
 ul:hover .displayLista {
     display: initial;
+    /* teste */
 }
 
 .fotoStyleLista {
