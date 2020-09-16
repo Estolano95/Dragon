@@ -2,15 +2,6 @@ html,body {
     scroll-behavior: smooth;
 }
 
-.imagemFundo {
-    background-image: url(Fotos/filme2.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 100vh;
-    width: 100%;
-}
-
 ul {
     list-style-type: none;
     padding: 0;
@@ -21,12 +12,13 @@ ul {
     align-items: stretch;
     justify-content: space-around;
     max-height: 100vh;
+    height: 100%;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.fotoStyle {
-    width: 40px;
+li{
+    flex-grow: 1;
 }
 
 button{
@@ -34,21 +26,29 @@ button{
     padding: 0;
     border: 0;
     background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.imagemFundo {
+    background-image: url(Fotos/filme2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    width: 100%;
+}
+
+.fotoStyle {
+    width: 40px;
 }
 
 .displayLista {
     display: none;
     padding: 0 10px;
     color: white;
-}
-
-button:hover{
-    background-color:  rgba(255, 0, 0, 0.6);
-}
-
-ul:hover .displayLista {
-    display: initial;
-    /* teste */
+    align-self: center;
 }
 
 .fotoStyleLista {
@@ -76,6 +76,15 @@ ul:hover .displayLista {
     padding-top: 50%;
     padding-bottom: 15%;
     color: white;
+}
+
+button:hover{
+    background-color:  rgba(255, 0, 0, 0.6);
+}
+
+ul:hover .displayLista {
+    display: initial;
+    /* teste */
 }
 
 /* position: relative;
