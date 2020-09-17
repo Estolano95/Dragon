@@ -79,8 +79,8 @@ button{
 #aUp{
     position: absolute;
     position: fixed;
-    top: 500px;
-    right: 0px;
+    top: 70%;
+    right: 0%;
 }
 
 button:hover{
