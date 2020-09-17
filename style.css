@@ -68,14 +68,19 @@ button{
 
 .descricao {
     max-width: 10000px;
-}
-
-/* classe nos resumos dos livros, terminar de editar */
+}/* classe nos resumos dos livros, terminar de editar */
 
 #content {
     padding-top: 50%;
     padding-bottom: 15%;
     color: white;
+}
+
+#aUp{
+    position: absolute;
+    position: fixed;
+    top: 500px;
+    right: 0px;
 }
 
 button:hover{
